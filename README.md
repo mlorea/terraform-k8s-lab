@@ -44,7 +44,7 @@ module "vpc" {
   }
 }
 
-#Módulo de EKS
+### Módulo de EKS
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
@@ -72,7 +72,7 @@ module "eks" {
 }
 
 
-#Variables utilizadas
+### Variables utilizadas
 
 variable "region" {
   description = "Región de AWS"
