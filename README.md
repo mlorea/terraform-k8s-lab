@@ -91,9 +91,22 @@ kubectl get nodes
 
 (este paso se realiza luego del despliegue, si no se eliminó el clúster).
 
-## Capturas de Pantalla
+## Capturas del laboratorio
 
-Agregá las capturas dentro de una carpeta `screenshots/` y referencialas con Markdown:
+A continuación se muestran capturas del entorno desplegado con Terraform:
+
+### 🔹 Estructura de red (VPC)
+![Estructura VPC](docs/vpc-structure.png)
+
+### 🔹 Subredes creadas en la VPC
+![Subredes](docs/vpc-subnets.png)
+
+### 🔹 Panel de EKS en AWS
+![Dashboard EKS](docs/eks-dashboard.png)
+
+### 🔹 Lista de nodos del clúster
+![Nodos del clúster](docs/nodes-list.png)
+
 
 ```markdown
 ![Vista general del clúster](screenshots/eks-cluster.png)
