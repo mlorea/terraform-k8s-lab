@@ -43,9 +43,9 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
+```hcl
 ### Módulo de EKS
-
+```hcl
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
   version = "20.8.4"
@@ -73,7 +73,7 @@ module "eks" {
 
 
 ### Variables utilizadas
-
+```hcl
 variable "region" {
   description = "Región de AWS"
   default     = "us-east-1"
