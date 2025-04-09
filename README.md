@@ -43,7 +43,7 @@ module "vpc" {
     Environment = "dev"
   }
 }
-```hcl
+```
 ### Módulo de EKS
 ```hcl
 module "eks" {
@@ -71,9 +71,9 @@ module "eks" {
   }
 }
 
-
+```
 ### Variables utilizadas
-```hcl
+```
 variable "region" {
   description = "Región de AWS"
   default     = "us-east-1"
@@ -88,14 +88,14 @@ variable "cluster_name" {
   description = "Nombre del clúster EKS"
   default     = "k8s-lab"
 }
-
+```
 Paso 2: Aplicar Terraform
 Con la infraestructura definida, ejecuté los siguientes comandos:
-
+```
 terraform init
 terraform plan
 terraform apply
-
+```
 Esto desplegó todos los recursos necesarios en AWS: una VPC con subredes públicas y privadas, un NAT Gateway, el clúster EKS y el Node Group.
 
 Paso 3: Resultados
