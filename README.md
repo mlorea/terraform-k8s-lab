@@ -13,7 +13,7 @@ Este proyecto consiste en el despliegue de un clúster de Kubernetes (EKS) en AW
 
 ## Requisitos previos
 
-- Tener instalado Terraform, AWS CLI y `kubectl`.
+- Tener instalado Terraform, AWS CLI y `kubectl`(si quisiera conectarme sin necesidad de entrar a la consola de AWS).
 - Contar con una cuenta de AWS y un perfil configurado en la CLI (por ejemplo, `default`).
 - Una clave SSH generada y asociada al repositorio para poder pushear los cambios desde el servidor virtual Linux.
 
